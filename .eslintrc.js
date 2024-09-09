@@ -11,7 +11,6 @@ module.exports = {
     FileReader: false,
   },
   env: {
-    "browser": true,
-    'jest/globals': true,
+    "browser": true
   },
 };
