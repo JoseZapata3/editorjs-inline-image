@@ -16,8 +16,8 @@
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch",
     "test": "jest",
-    "lint": "eslint src/ test/ --ext .js",
-    "lint:fix": "eslint src/ test/ --ext .js --fix"
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint src/ test/ --ext .js",
+    "lint:fix": "ESLINT_USE_FLAT_CONFIG=false eslint src/ test/ --ext .js --fix"
   },
   "author": {
     "name": "kommitters Open Source",
