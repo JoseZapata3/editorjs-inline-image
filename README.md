@@ -27,7 +27,7 @@ Get the package
 $ npm i --save-dev editorjs-inline-image
 ```
 
-Include module at your application
+Include module at your application.
 
 ```javascript
 import InlineImage from 'editorjs-inline-image';
